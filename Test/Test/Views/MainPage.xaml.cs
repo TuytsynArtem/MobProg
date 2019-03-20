@@ -64,7 +64,7 @@ namespace Test.Views
 
         }
         private readonly ApiClient apiClient2 = new ApiClient();
-        private void Button_Clicked_2(object sender, System.EventArgs e)
+        private async void Button_Clicked_2(object sender, System.EventArgs e)
         {
             try
             {
