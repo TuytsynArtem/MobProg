@@ -1,7 +1,6 @@
-﻿using System;
+﻿using Test.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Test.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Test
@@ -12,8 +11,6 @@ namespace Test
         public App()
         {
             InitializeComponent();
-
-
             MainPage = new MainPage();
         }
 
