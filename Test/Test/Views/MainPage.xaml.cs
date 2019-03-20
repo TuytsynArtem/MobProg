@@ -68,7 +68,8 @@ namespace Test.Views
         {
             try
             {
-                SourceNotes.Clear();
+                var notes = await apiClient.GetAllNotesAsync();
+                SourceNotes.RemoveRange(notes);
             }
             catch (Exception exception)
             {
